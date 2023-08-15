@@ -10,9 +10,12 @@
 
 int main(void)
 {
-	for (int digit = 0 ; digit <= 9 ; digit++)
+	int digit = 0;
+
+	while (digit <= 9)
 	{
 		printf("%i", digit);
+		digit++;
 	}
 	printf("\n");
 
