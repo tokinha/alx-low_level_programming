@@ -30,7 +30,7 @@ void time_tables(void)
 			if (prod <= 9)
 				_putchar(' ');
 			else
-				_putchar((prod / 10) + 48); /*get first digit*/
+				 _putchar((prod / 10) + 48); /*get first digit*/
 			_putchar((prod % 10) + 48); /*get second digit*/
 		}
 		_putchar('\n');
