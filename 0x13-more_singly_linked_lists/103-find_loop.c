@@ -13,7 +13,7 @@ listint_t *find_listint_loop(listint_t *head)
 
 	if (head == NULL)
 		return (NULL);
-	for (e = head->next; end != NULL; e = e->next)
+	for (e = head->next; e != NULL; e = e->next)
 	{
 		if (e == e->next)
 			return (e);
